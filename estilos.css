@@ -1,0 +1,11 @@
+section{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    
+}
+
+article{
+    border-collapse: collapse;
+    border:  solid black;
+}
+
