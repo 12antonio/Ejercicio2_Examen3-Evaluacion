@@ -9,3 +9,16 @@ article{
     border:  solid black;
 }
 
+@media screen and (max-width:900px){
+    section{
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+}
+
+@media screen and (max-width:500px) {
+    section{
+        display: grid;
+        grid-template-columns: auto;
+    }
+}
